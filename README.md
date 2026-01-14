@@ -15,6 +15,7 @@
 <p align="center">
 <a href="LICENSE"><img src="https://img.shields.io/badge/license-MIT-blue?style=for-the-badge" alt="License: MIT"></a>
 <a href="#"><img src="https://img.shields.io/badge/status-active-success?style=for-the-badge" alt="Status"></a>
+<a href="https://www.facebook.com/people/Valper-System/61581507462737/"> <img src="https://img.shields.io/badge/facebook-02569B?style=for-the-badge&logo=facebook&logoColor=white" alt="Facebook"></a>
 </p>
 
 <p align="center">VALPER is an intelligent identification system built with <b>Python</b> for Raspberry Pi devices, featuring <b>face recognition</b> and <b>license plate recognition (OCR)</b> capabilities. The system uses <b>Supabase</b> for data management and includes a <b>Flutter mobile application</b> for user interaction.</p>

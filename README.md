@@ -35,10 +35,12 @@
 - [Contributing](#contributing)
 - [License](#license)
 
+<a id="overview"></a>
 ## 🎯 Overview
 
 VALPER (Vehicle and Person Recognition) is a comprehensive thesis project that implements an intelligent identification system using computer vision and machine learning. The system combines face recognition and optical character recognition (OCR) technologies to identify and verify vehicles and individuals in real-time.
 
+<a id="features"></a>
 ## ✨ Features
 
 - **Face Recognition**: Real-time face detection and recognition using InsightFace
@@ -48,6 +50,7 @@ VALPER (Vehicle and Person Recognition) is a comprehensive thesis project that i
 - **Database Integration**: Supabase backend for data storage and management
 - **Mobile Application**: Flutter-based mobile app for system interaction (coming soon)
 
+<a id="system-architecture"></a>
 ## 🏗️ System Architecture
 
 <p align="center">
@@ -60,6 +63,7 @@ The VALPER system consists of three main components:
 2. **Raspberry Pi Zero**: Camera server providing image capture functionality
 3. **Flutter Mobile App**: User interface for system interaction and management
 
+<a id="project-structure"></a>
 ## 📁 Project Structure
 
 ```
@@ -79,6 +83,7 @@ valper-system/
 └── README.md                               # This file
 ```
 
+<a id="prerequisites"></a>
 ## 🔧 Prerequisites
 
 ### Hardware Requirements
@@ -94,6 +99,7 @@ valper-system/
 - Flutter SDK (for mobile app development)
 - Supabase account and project
 
+<a id="installation"></a>
 ## 📦 Installation
 
 ### Raspberry Pi 5 Setup
@@ -144,6 +150,7 @@ source venv/bin/activate
 pip install -r requirements.txt
 ```
 
+<a id="configuration"></a>
 ## ⚙️ Configuration
 
 ### Environment Variables
@@ -166,6 +173,7 @@ The system is configured to use:
 - **Raspberry Pi Zero**: Full resolution (3280x2464) with 16:9 crop to 1920x1080
 - **Raspberry Pi 5**: Processes images from Pi Zero via HTTP endpoint
 
+<a id="usage"></a>
 ## 🚀 Usage
 
 ### Starting the Raspberry Pi Zero Camera Server
@@ -213,6 +221,7 @@ The system will:
 - Validate license plates against the database
 - Log results to Supabase
 
+<a id="mobile-application"></a>
 ## 📱 Mobile Application
 
 The Flutter mobile application source code will be uploaded to `src/valper_mobile_app/` directory. This application will provide:
@@ -243,10 +252,12 @@ flutter pub get
 flutter run
 ```
 
+<a id="contributing"></a>
 ## 🤝 Contributing
 
 This is a thesis project. For questions or contributions, please contact the project maintainers.
 
+<a id="license"></a>
 ## 📄 License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.

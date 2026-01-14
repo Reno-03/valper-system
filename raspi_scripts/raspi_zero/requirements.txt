@@ -1,0 +1,18 @@
+# Web Framework
+Flask==3.1.1
+
+# Raspberry Pi Camera
+picamera2==0.3.31
+
+# Computer Vision
+opencv-python==4.11.0.86
+numpy==1.24.2
+
+# Network Service Discovery
+zeroconf==0.147.0
+
+# HTTP Requests
+requests==2.28.1
+
+# Environment Variables
+python-dotenv==0.21.0

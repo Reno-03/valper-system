@@ -1,0 +1,28 @@
+# Core Dependencies
+opencv-python==4.11.0.86
+numpy==2.2.6
+pygame==2.1.2
+requests==2.28.1
+python-dotenv==0.21.0
+
+# Raspberry Pi Camera
+picamera2==0.3.31
+
+# AI/ML - Face Recognition
+insightface==0.7.3
+onnxruntime==1.22.0
+
+# AI/ML - OCR (Optical Character Recognition)
+easyocr==1.7.2
+
+# Database
+supabase==2.15.3
+
+# Fuzzy String Matching
+rapidfuzz==3.14.1
+
+# Hardware Communication
+pyserial==3.5
+
+# Network Service Discovery
+zeroconf==0.147.0
